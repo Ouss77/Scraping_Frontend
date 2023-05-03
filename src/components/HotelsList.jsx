@@ -1,8 +1,7 @@
-import { format } from "date-fns";
 import React, { useState } from "react";
 import { DateRange } from "react-date-range";
 import { useLocation, useParams } from "react-router-dom";
-import "./Hotelslist.css";
+import "./HotelsList.css";
 import HotelsDetails from "./HotelsDetails";
 import Navbar from "./Navbar";
 import HotelsPrice from "./HotelsPrice";
