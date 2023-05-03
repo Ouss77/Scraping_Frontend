@@ -1,0 +1,124 @@
+
+.header {
+    margin-left: 10%;
+    /* background-color: lightseagreen; */
+    background-image: url("cov6.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 450px; /* Set the height of the container as needed */
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 250px 0px;
+}
+
+.headerContainer.listMode{
+    margin: 20px 0px 0px 0px;
+}
+
+.headerList {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+
+}
+
+.headerListItem {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerTitel {
+    margin-bottom: 20px;
+}
+
+.headerBtn {
+    background-color: rgb(158, 242, 242);
+    border: none;
+    padding: 17px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 150px;
+}
+
+.headerSearchTest {
+    color: grey;
+    cursor: pointer;
+}
+
+.headerIcon {
+    color: gray;
+}
+
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.headerSearchInput {
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+.headerSearchText {
+    color: lightgray;
+    cursor: pointer;
+  }
+
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.options{
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.optionCounterButton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(158, 242, 242);
+    color: rgb(115, 115, 222);
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .headerContainer {
+    margin: 20px 0px 50px 0px;
+  }
+  .header{
+    width: 100vw;
+    margin: 0;
+  }
+}
+
